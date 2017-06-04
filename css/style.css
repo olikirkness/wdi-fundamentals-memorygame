@@ -20,6 +20,21 @@ nav{
 	padding:20px 0 20px 0;
 
 }
+button {
+	padding:7px;
+	background-color: white;
+	border: 2px  solid #F15B31;
+	font-family:Raleway;
+	font-size:16px;
+	border-radius: 5px;
+	margin:0 0 0 30px;
+	display:block;
+	text-align: center;
+	float:right;
+}
+button:hover {
+	border: 2px solid #00A6B3;
+}
 
 a {
 	font-family: Raleway;
@@ -39,15 +54,31 @@ main{
 	margin: 35px auto 35px auto;
 }
 
-h3{
+h3,label{
 	font-family: Raleway;
-	color: #0D2C40;
-	letter-spacing: 1px;
 	font-weight: 600;
+	margin:0 0 0 0;
+	text-align:center;
+	width:100px;
+}
+h3 {
+	float: left;
+	display: inline;
+	color: #0D2C40;
 	font-size: 20px;
+	padding-top: 5px;
+	
+}
+label{
+	margin:0 120px 0 0;
+
+	display: inline;
+	color: #F15B31;
+	font-size:30px;
+	
 }
 p {
-	font-family: "driod serif";
+	font-family: Raleway;
 	line-height: 26px;
 	font-size: 18px;
 }
@@ -64,6 +95,19 @@ footer{
 	letter-spacing: 0.08em;
 	font-weight: 500;
 }
+
+#scoreBox {
+	font-family: Raleway;
+	color:black;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	
+	width:400px;
+	display:inline-block;
+	
+}
+
 .copyright {
 	font-family: Raleway;
 	float:left;
@@ -83,4 +127,5 @@ footer{
   clear: both;
   height: 0;
   font-size: 0;
+
 }
